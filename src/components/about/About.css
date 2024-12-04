@@ -1,0 +1,131 @@
+.about-container {
+    min-height: 100vh;
+    padding: 5rem 0rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .about-header {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+  }
+  
+  .about-underline {
+    height: 4px;
+    width: 60px;
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  
+
+
+
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    align-items: center;
+  }
+  
+  @media (min-width: 768px) {
+    .about-content {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+
+  .about-image-container {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  .about-info {
+    padding: 1rem;
+  }
+  
+  .developer-name {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+  }
+  
+  .developer-title {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+  }
+  
+  .highlight {
+    color: #6366f1;
+    font-weight: 600;
+  }
+  
+  .highlight-purple {
+    color: #8b5cf6;
+    font-weight: 600;
+  }
+  
+  .developer-description {
+    color: #6b7280;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+
+  .download-cv {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  
+
+  @media (max-width: 640px) {
+    .about-container {
+      padding: 6rem 1rem;
+    }
+  
+   .about-content{
+    gap: 2.5rem;
+   }
+
+    .about-title {
+      font-size: 2.5rem;
+    }
+  
+    .developer-name {
+      font-size: 2rem;
+    }
+  
+    .developer-title {
+      font-size: 1.25rem;
+    }
+  }
